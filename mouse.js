@@ -1,7 +1,12 @@
-var Mouse={
-    name:'mickey'
+function Mouse(name){
+    this.name=name;
+    this.hungry=true;
 }
 Mouse.prototype.eat=function(){
-    console.log('eating...');
+    this.hungry=false;
 }
+let mouse=new Mouse('mickey');
+console.log(mouse);
+mouse.eat();
+console.log(mouse);
 module.exports =Mouse;
