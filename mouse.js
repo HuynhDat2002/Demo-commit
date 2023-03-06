@@ -4,3 +4,4 @@ var Mouse={
 Mouse.prototype.eat=function(){
     console.log('eating...');
 }
+module.exports =Mouse;
