@@ -10,3 +10,4 @@ console.log(mouse);
 mouse.eat();
 console.log(mouse);
 module.exports =Mouse;
+let mouse2=new Mouse('jerry');
