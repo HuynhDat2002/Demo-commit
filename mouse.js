@@ -1,3 +1,4 @@
+
 function Mouse(name){
     this.name=name;
     this.hungry=true;
@@ -11,3 +12,6 @@ mouse.eat();
 console.log(mouse);
 module.exports =Mouse;
 let mouse2=new Mouse('jerry');
+var chalk  = require('chalk');
+
+console.log('hi. ' +chalk.green('im Dat'));
