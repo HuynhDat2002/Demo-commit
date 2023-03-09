@@ -11,5 +11,6 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "requirejs": "^2.3.6"
-  }
+  },
+  "type":"module"
 }
